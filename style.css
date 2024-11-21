@@ -216,6 +216,8 @@ html, body {
 
 /* Portfolio Section */
 .portfolio {
+    padding-top: 100px; /* Adjust based on navbar height */
+    padding-bottom: 50px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
