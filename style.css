@@ -216,8 +216,6 @@ html, body {
 
 /* Portfolio Section */
 .portfolio {
-    padding-top: 100px; /* Adjust based on navbar height */
-    padding-bottom: 50px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -318,7 +316,7 @@ html, body {
 /* Footer Social Icons */
 footer .social-icons-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     margin-top: 10px;
@@ -393,6 +391,18 @@ footer .link-group a{
     margin-top: 1rem;
 }
 
+
+/* styling back to top button */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    font-size: 1.4rem;
+    background-color: #fca61f;
+    color: #fff;
+    animation: pulse 3s infinite;
+}
 
 @media screen (max-width:600px){
 
