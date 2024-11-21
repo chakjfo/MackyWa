@@ -98,12 +98,12 @@ html, body {
     font-size: 5rem;
     font-weight: 700;
     line-height: 5rem;
-    color: #fffff;
+    color: black;
 }
 .c-orange{
     font-weight: 700;
     font-size: 7rem;
-    color: #fffff;
+    color: black;
 }
 .home p{
     width: fit-content;
