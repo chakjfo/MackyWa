@@ -318,8 +318,8 @@ html, body {
 /* Footer Social Icons */
 footer .social-icons-footer {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
     justify-content: center;
     margin-top: 10px;
 }
