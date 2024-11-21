@@ -116,16 +116,23 @@ html, body {
 }
 
 @keyframes floatimg {
-    0%{
-        transform: translateX(0);
+    0% {
+        transform: translateY(0); /* Original position */
     }
-    50%{
-        transform: translateX(-24px);
+    25% {
+        transform: translateY(-12px); /* Slight upward move */
     }
-    100%{
-        transform: translateX(0);
+    50% {
+        transform: translateY(-24px); /* Peak upward move */
+    }
+    75% {
+        transform: translateY(-12px); /* Slight downward move */
+    }
+    100% {
+        transform: translateY(0); /* Return to the original position */
     }
 }
+
 
 
 .skill {
