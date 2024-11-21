@@ -103,6 +103,7 @@ html, body {
 .c-orange{
     font-weight: 700;
     font-size: 4rem;
+    color: #fffff;
 }
 .home p{
     width: fit-content;
