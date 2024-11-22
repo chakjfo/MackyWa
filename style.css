@@ -338,7 +338,9 @@ footer .social-icon i {
 
 footer .social-icon:hover {
     color: #fca61f;
-    
+    display: flex;
+    align-items: flex-center;
+    justify-content: center;
 }
 
 
