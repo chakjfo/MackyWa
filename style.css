@@ -316,7 +316,7 @@ html, body {
 /* Footer Social Icons */
 footer .social-icons-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     justify-content: center;
     margin-top: 10px;
@@ -336,6 +336,7 @@ footer .social-icon i {
 
 footer .social-icon:hover {
     color: #fca61f;
+    
 }
 
 
