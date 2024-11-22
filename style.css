@@ -318,7 +318,6 @@ footer .social-icons-footer {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center;
     margin-top: 10px;
 }
 
