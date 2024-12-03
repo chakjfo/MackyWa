@@ -1,3 +1,5 @@
+/*(.text.text{}) is from the .html "id" of the same directory. The "id" is used for sting the text, animation movements, and color of the design. */
+
 /* apply google font sa website  */
 html, body {
     font-family: 'Josefin Sans', sans-serif, 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji';
@@ -313,10 +315,6 @@ html, body {
     background-color: #fca61f;
 }
 
-/* Add Font Awesome icons if not already included in the head */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
-
-
 /* Footer Social Icons */
 footer .social-icons-footer {
     display: flex;
@@ -377,10 +375,6 @@ footer .social-icon:hover {
     background-color: #fca61f;
 }
 
-/* Add Font Awesome icons if not already included in the head */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
-
-
 /* footer section starts */
 footer{
     background-color: #211e39;
@@ -406,8 +400,4 @@ footer .link-group a{
     background-color: #fca61f;
     color: #fff;
     animation: pulse 3s infinite;
-}
-
-@media screen (max-width:600px){
-
 }
