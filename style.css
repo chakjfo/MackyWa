@@ -10,6 +10,10 @@ html, body {
     background: none;
 }
 
+.body {
+        overflow: hidden;
+}
+
 
 /* Make the navbar sticky and transparent */
 .navbar {
