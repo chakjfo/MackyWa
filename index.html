@@ -28,7 +28,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <!-- Links in the navbar -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <!-- collapse navbar-collapse: Ensures the navbar collapses on smaller screens -->
@@ -57,10 +57,10 @@
         <!-- row: Defines a flex container with row alignment, justify-content-evenly evenly spaces items -->
         <div class="col-12 col-md-6 text-center text-md-start">
             <!-- col-12: Full-width on small screens, col-md-6: Half-width on medium screens, text-center: Centers text on small screens, text-md-start: Aligns text to the start on medium screens -->
-            <h2>Hi! I am<br><span class="c-orange">Macky Torres,</span></h2>
+            <!--<h2>Hi! I am<br><span class="c-orange">Macky Torres,</span></h2>-->
             <!-- Span with the class "c-orange" highlights the text in orange -->
-            <p class="text-muted">a local artist from Davao...</p>
-            <!-- "text-muted" class applies a light gray color to the text -->    
+            <!--<p class="text-muted">a local artist from Davao...</p>-->
+            <!-- "text-muted" class applies a light gray color to the text -->
         </div>
         <div class="col-12 col-md-4">
             <!-- This column contains the image, which takes up full width on small screens and 1/3 on medium screens -->
@@ -124,34 +124,27 @@
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio">
-    <!-- Portfolio Container -->
     <div class="portfolio-container">
-        <!-- Heading -->
         <div class="heading text-center pt-5">
-             <!-- text-center: Centers the heading -->
             <small>Creative Works</small>
-            <h3>Portfolio (13)</h3>
+            <h3>Portfolio (14)</h3>
         </div>
 
-        <!-- Carousel Wrapper -->
+        <!-- Portfolio Carousel Section -->
         <div id="portfolioCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
-            <!-- Indicators -->
+            <!-- Carousel Indicators -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <!-- data-bs-slide-to="0" specifies the slide number -->
-                <!-- "active" makes this indicator active -->
             </div>
 
-            <!-- Carousel Items -->
             <div class="carousel-inner">
-                <!-- Carousel Slide 0 (5 items) -->
+                <!-- First Carousel Slide -->
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        <!-- Bootstrap grid system for creating the portfolio grid (max size para ma fit ang pic...)-->
+                        <!-- PBB Journey 2024 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
-                            <!-- Each card inside the carousel item -->
                             <div class="card h-100 text-center">
                                 <div class="img-container">
                                     <img src="Assets/pic1.jpg" class="card-img-top" alt="PBB Journey 2024">
@@ -161,6 +154,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Lambod Studio Garments 2024 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
@@ -171,6 +166,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Gala Magazine 2024 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
@@ -181,115 +178,134 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Kadayawan Dance Challenge 2024 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Kadayawan Dance Challenge 2024">
+                                    <img src="Assets/Kadayawan.jpeg" class="card-img-top" alt="Kadayawan Dance Challenge 2024">
                                 </div>
                                 <div class="card-body">
                                     <h6 class="card-title">Kadayawan Dance Challenge 2024</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Roman Empire Panglao Advertisement 2024 (Video) -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Roman Empire Panglao Advertisement 2024">
+                                    <img src="Assets/roman%empire.jpg" class="card-img-top video-thumbnail" alt="Roman Empire Panglao Advertisement 2024" data-bs-toggle="modal" data-bs-target="#videoModal1">
                                 </div>
                                 <div class="card-body">
                                     <h6 class="card-title">Roman Empire Panglao Advertisement 2024</h6>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
-                <!-- Carousel Slide 1 (5 items) -->
+                <!-- Second Carousel Slide -->
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <!-- Camera and Equipment Rental Davao 2024 (Video) -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Camera and Equipment Rental Davao 2024">
+                                    <img src="Assets/camera.jpg" class="card-img-top video-thumbnail" alt="Camera and Equipment Rental Davao 2024" data-bs-toggle="modal" data-bs-target="#videoModal2">
                                 </div>
                                 <div class="card-body">
                                     <h6 class="card-title">Camera and Equipment Rental Davao 2024</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Emperors Lounge and Barber Shop 2024 (Video) -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Fashion Model Portfolio 2024">
+                                    <img src="Assets/emperorslounge.jpg" class="card-img-top video-thumbnail" alt="Emperors Lounge and Barber Shop 2024" data-bs-toggle="modal" data-bs-target="#videoModal3">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Fashion Model Portfolio 2024</h6>
+                                    <h6 class="card-title">Emperors Lounge and Barber Shop 2024</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Braulio Dujali Tourism Music Video 2024 (Video) -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Sponsored Post for Photography">
+                                    <img src="Assets/dujali.jpeg" class="card-img-top video-thumbnail" alt="Braulio Dujali Tourism Music Video 2024" data-bs-toggle="modal" data-bs-target="#videoModal4">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Sponsored Post for Photography</h6>
+                                    <h6 class="card-title">Braulio Dujali Tourism Music Video 2024</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Kanoffee Sm Lanang Ads/Reels 2024 (Video) -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Fashion Model Photo Shoot 2024">
+                                    <img src="Assets/KANOFEE.jpg" class="card-img-top video-thumbnail" alt="Kanoffee Sm Lanang Ads/Reels 2024" data-bs-toggle="modal" data-bs-target="#videoModal5">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Fashion Model Photo Shoot 2024</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 col-10 mb-4">
-                            <div class="card h-100 text-center">
-                                <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Print Ad Campaign for Fashion 2024">
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Print Ad Campaign for Fashion 2024</h6>
+                                    <h6 class="card-title">Kanoffee Sm Lanang Ads/Reels 2024</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Carousel Slide 2 (3 items) -->
+                <!-- Third Carousel Slide -->
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <!-- Seafood Paradise Ads 2024 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Editorial Fashion Shoot 2024">
+                                    <img src="Assets/seafood.jpg" class="card-img-top" alt="Seafood Paradise Ads 2024">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Editorial Fashion Shoot 2024</h6>
+                                    <h6 class="card-title">Seafood Paradise Ads 2024</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Dilag a Short Film 2023 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Davao Ads Project 2024">
+                                    <img src="Assets/dilag.JPG" class="card-img-top" alt="Dilag a Short Film 2023">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Davao Ads Project 2024</h6>
+                                    <h6 class="card-title">Dilag a Short Film 2023</h6>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Ginoo ng Bago Gallera 2023 -->
                         <div class="col-md-2 col-sm-6 col-10 mb-4">
                             <div class="card h-100 text-center">
                                 <div class="img-container">
-                                    <img src="Assets/top%20class.jpg" class="card-img-top" alt="Fashion Styling Shoot 2024">
+                                    <img src="Assets/Ginoo%ng%bago.jpg" class="card-img-top" alt="Ginoo ng Bago Gallera 2023">
                                 </div>
                                 <div class="card-body">
-                                    <h6 class="card-title">Fashion Styling Shoot 2024</h6>
+                                    <h6 class="card-title">Ginoo ng Bago Gallera 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Top Class 2022 -->
+                        <div class="col-md-2 col-sm-6 col-10 mb-4">
+                            <div class="card h-100 text-center">
+                                <div class="img-container">
+                                    <img src="Assets/top%class.jpg" class="card-img-top" alt="Top Class 2022">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title">Top Class 2022</h6>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +313,7 @@
                 </div>
             </div>
 
-            <!-- Navigation Arrows -->
+            <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -309,7 +325,103 @@
         </div>
     </div>
 </section>
-<!--Portfolio End -->
+<!-- Portfolio Section Ends -->
+
+
+<!-- Modal Structure for Video Content -->
+
+<!-- Modal for Roman Empire Panglao Advertisement 2024 -->
+<!-- Modal for Video 1 -->
+<div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel1">Roman Empire Panglao Advertisement 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video width="100%" controls>
+                    <source src="Assets/romanempire_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Camera and Equipment Rental Davao 2024 -->
+<div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel2">Camera and Equipment Rental Davao 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video controls>
+                    <source src="https://streamable.com/d22rqj" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Emperors Lounge and Barber Shop 2024 -->
+<div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel3">Emperors Lounge and Barber Shop 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video controls>
+                    <source src="https://streamable.com/p45xxw" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Braulio Dujali Tourism Music Video 2024 -->
+<div class="modal fade" id="videoModal4" tabindex="-1" aria-labelledby="videoModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel4">Braulio Dujali Tourism Music Video 2024</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video controls>
+                    <source src="https://streamable.com/lvcemx" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Kanoffee Sm Lanang Ads/Reels 2024 -->
+<div class="modal fade" id="videoModal5" tabindex="-1" aria-labelledby="videoModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video controls>
+                    <source src="https://files.catbox.moe/0inzil.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <!-- Footer -->
 <footer class="bg-dark text-light text-center py-4">
@@ -327,5 +439,42 @@
 <!-- Bootstrap JS and other necessary JS libraries -->
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap and jQuery (optional for Bootstrap 4 and below) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/modal-video.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS for Video Play/Stop -->
+<script>
+    // Ensure that videos stop playing when modal is closed
+    var videoModal1 = document.getElementById('videoModal1');
+    var video1 = document.getElementById('video1');
+
+    // Event listener for modal closing
+    videoModal1.addEventListener('hidden.bs.modal', function () {
+        video1.pause(); // Stop video when modal is closed
+        video1.currentTime = 0; // Reset video time to the beginning
+    });
+
+    // Add similar JS for other modals (videoModal2, videoModal3, etc.) if needed
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS for Video Play/Stop -->
+<script>
+    // Ensure that videos stop playing when modal is closed
+    var videoModal2 = document.getElementById('videoModal2');
+    var video2 = document.getElementById('video2');
+
+    // Event listener for modal closing
+    videoModal1.addEventListener('hidden.bs.modal', function () {
+        video2.pause(); // Stop video when modal is closed
+        video2.currentTime = 0; // Reset video time to the beginning
+    });
+
+    // Add similar JS for other modals (videoModal2, videoModal3, etc.) if needed
+</script>
 </body>
 </html>

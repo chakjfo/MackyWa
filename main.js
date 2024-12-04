@@ -66,3 +66,27 @@ document.querySelectorAll('a.nav-link').forEach(anchor => {
     });
 });
 
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+})
+
+prev.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+})
+document.addEventListener('DOMContentLoaded', () => {
+    const videoModal = document.getElementById('videoModal');
+    const videoFrame = document.getElementById('videoFrame');
+
+    // Stop video when the modal is closed
+    videoModal.addEventListener('hidden.bs.modal', function () {
+        videoFrame.src = ''; // Clear the iframe src to stop the video
+        setTimeout(() => {
+            videoFrame.src = 'https://streamable.com/e/a8ioe3'; // Reset the src for playback when reopened
+        }, 300); // Slight delay to avoid issues with instant reload
+    });
+});
