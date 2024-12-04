@@ -332,36 +332,64 @@
 <!-- Modal for Video 1 -->
 <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <video class="w-100" controls>
-            <source src="https://files.catbox.moe/yzp2wz.mp4" type="video/mp4">
-        </video>
+        <div class="modal-content">
+            <iframe 
+                src="https://drive.google.com/file/d/1xxbLPlP0kplbMXOHBcpdXf0aTtznreVJ/preview" 
+                width="100%" 
+                height="480" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
 
 <!-- Modal for Camera and Equipment Rental Davao 2024 -->
 <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <video class="w-100" controls>
-            <source src="https://files.catbox.moe/zldhwq.mp4" type="video/mp4">
-        </video>
+        <div class="modal-content">
+            <iframe 
+                src="https://drive.google.com/file/d/1k4cNUyQmxW18PZUTPrjMNCYHILXxz218/preview" 
+                width="100%" 
+                height="480" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
 
 <!-- Modal for Emperors Lounge and Barber Shop 2024 -->
 <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <video class="w-100" controls>
-            <source src="https://files.catbox.moe/ia1gsj.mp4" type="video/mp4">
-        </video>
+        <div class="modal-content">
+            <iframe 
+                src="https://drive.google.com/file/d/1W6t4qyhf_vr6UAGuzSH94QUxV_sORv4E/preview" 
+                width="100%" 
+                height="480" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
 
 <!-- Modal for Braulio Dujali Tourism Music Video 2024 -->
 <div class="modal fade" id="videoModal4" tabindex="-1" aria-labelledby="videoModalLabel4" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <video class="w-100" controls>
-            <source src="https://files.catbox.moe/ia1gsj.mp4" type="video/mp4">
-        </video>
+        <div class="modal-content">
+            <iframe 
+                src="https://drive.google.com/file/d/1DslTcTQ1t_6EjilYj038XfuAumYAwZnZ/preview" 
+                width="100%" 
+                height="480" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
 
@@ -405,20 +433,6 @@
 <script src="scripts/modal-video.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Custom JS for Video Play/Stop -->
-<script>
-    // Ensure that videos stop playing when modal is closed
-    var videoModal1 = document.getElementById('videoModal1');
-    var video1 = document.getElementById('video1');
-
-    // Event listener for modal closing
-    videoModal1.addEventListener('hidden.bs.modal', function () {
-        video1.pause(); // Stop video when modal is closed
-        video1.currentTime = 0; // Reset video time to the beginning
-    });
-
-    // Add similar JS for other modals (videoModal2, videoModal3, etc.) if needed
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
