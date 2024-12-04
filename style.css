@@ -8,6 +8,7 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     background: none;
+    background-image: url('bg1.png');
 }
 
 
